@@ -1,0 +1,44 @@
+.contact{
+    text-align: center;
+    margin: 5% 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contents{
+    margin: 5% 0%;
+}
+
+.icons{
+    margin: 5%;
+    font-size: 120px;
+    text-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.fa-phone-square-alt{
+    color: rgb(1, 155, 42);
+}
+
+.fa-whatsapp-square{
+    color: rgb(7, 94, 84)
+}
+
+.fa-google{
+    color: rgb(219,68,55);
+}
+
+.fa-apple{
+    color: rgb(162, 170, 173)
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.fa-linkedin{
+    color: #0072b1;
+}
+
+.fa-instagram-square{
+    color: #ac3a86;
+}

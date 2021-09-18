@@ -1,0 +1,187 @@
+.educationPlaceholder{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 100px 50px;
+    display: flex;
+    height: 250px;
+    background: linear-gradient(-200deg, rgba(58, 37, 134, 0.479), rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+    transform: skewX(-10deg);
+    padding: 25px 50px;
+    border: 5px solid chocolate;
+}
+
+.educationPlaceholder > div, .educationPlaceholder > img {
+    transform: skewX(10deg);
+}
+
+.educationDetails{
+    flex: 9;
+    align-self: center;
+}
+
+.degreeTitle{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+
+.bigDetails{
+    font-size: 24px;
+    margin: 7.5px 0px;
+}
+
+.smallDetails{
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+}
+
+.smallContents{
+    margin: 5px 0px;
+}
+
+.institutionLogo{
+    flex: 2;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .educationPlaceholder{
+        margin: 30px 50px;
+        height: 200px;
+        padding: 5px 20px;
+        border: 2px solid chocolate;
+    }
+    
+    .degreeTitle{
+        font-size: 17px;
+        margin: 5px 0px;
+    }
+    
+    .bigDetails{
+        font-size: 14px;
+        margin: 5px 0px;
+    }
+
+    .smallDetails{
+        font-size: 10px;
+    }
+    
+    .smallContents{
+        margin: 5px 0px;
+    }
+    
+    .institutionLogo{
+        height: 40%;
+        width: 40%;
+        justify-self: center;
+        align-self: center;
+    }
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    .educationPlaceholder{
+        margin: 30px 50px;
+        height: 200px;
+        padding: 5px 20px;
+        border: 2px solid chocolate;
+    }
+    
+    .degreeTitle{
+        font-size: 17px;
+        margin: 5px 0px;
+    }
+    
+    .bigDetails{
+        font-size: 14px;
+        margin: 5px 0px;
+    }
+
+    .smallDetails{
+        font-size: 10px;
+    }
+    
+    .smallContents{
+        margin: 5px 0px;
+    }
+    
+    .institutionLogo{
+        height: 40%;
+        width: 40%;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px) {
+    .educationPlaceholder{
+        margin: 30px 50px;
+        height: 200px;
+        padding: 5px 20px;
+        border: 2px solid chocolate;
+    }
+    
+    .degreeTitle{
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    
+    .bigDetails{
+        font-size: 16px;
+        margin: 5px 0px;
+    }
+
+    .smallDetails{
+        font-size: 12px;
+    }
+    
+    .smallContents{
+        margin: 5px 0px;
+    }
+    
+    .institutionLogo{
+        height: 60%;
+        width: 60%;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .educationPlaceholder{
+        margin: 30px 50px;
+        height: 200px;
+        padding: 5px 20px;
+        border: 2px solid chocolate;
+    }
+    
+    .degreeTitle{
+        font-size: 22px;
+        margin: 5px 0px;
+    }
+    
+    .bigDetails{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+
+    .smallDetails{
+        font-size: 14px;
+    }
+    
+    .smallContents{
+        margin: 5px 0px;
+    }
+    
+    .institutionLogo{
+        height: 75%;
+        width: 75%;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    
+}

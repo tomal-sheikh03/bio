@@ -1,0 +1,67 @@
+.hardware{
+    text-align: center;
+    margin: 3% 2%;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+
+.hardwareTitle{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin-top: 15%;
+}
+
+@media screen and (max-width: 500px) {
+    .image{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .hardwareTitle{font-size: 18px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    .image{
+        height: 140px;
+        width: 140px;
+    }
+    
+    .hardwareTitle{
+        font-size: 18px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px) {
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .hardwareTitle{
+        font-size: 18px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .image{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .hardwareTitle{
+        font-size: 18px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    
+}

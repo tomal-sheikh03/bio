@@ -1,0 +1,78 @@
+.professional{
+    margin: 5%;
+}
+
+.sectionTitle{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.experienceContainer{
+    margin-bottom: 100px;
+}
+
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: 5% 10%;
+}
+
+.hardwareContainer{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+@media screen and (max-width: 500px) {
+    .sectionTitle{
+        font-size: 25px;
+    }
+    
+    .experienceContainer{
+        margin-bottom: 100px;
+    }
+    
+    .skillContainer{
+        margin: 5%;
+    }
+    
+    .hardwareContainer{
+        margin: 5%;
+    }
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    .sectionTitle{
+        font-size: 25px;
+    }
+    
+    .experienceContainer{
+        margin-bottom: 100px;
+    }
+    
+    .skillContainer{
+        margin: 5%;
+    }
+    
+    .hardwareContainer{
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 900px) {
+    
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    
+}

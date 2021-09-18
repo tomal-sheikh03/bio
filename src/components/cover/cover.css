@@ -1,0 +1,39 @@
+.cover{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.homeBanner {
+    background-image: url('../../assets/images/pexels-george-becker-333513.jpg');
+}
+
+.educationBanner{
+    background-image: url('../../assets/images/pexels-katerina-holmes-5905443.jpg')
+}
+
+.skillBanner{
+    background-image: url('../../assets/images/pexels-mikhail-nilov-8296953.jpg')
+}
+
+.projectBanner{
+    background-image: url('../../assets/images/pexels-ono-kosuki-5999866.jpg')
+}
+
+.contactBanner{
+    background-image: url('../../assets/images/pexels-pixabay-163007.jpg')
+}
+
+
+.pageTitle{
+    position: absolute;
+    bottom: 60px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
